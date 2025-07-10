@@ -23,6 +23,7 @@ def play(output: bool = True, sleep: bool = False):
 
         if output:
             print(f"Player {player}: {num}")
+
         player = switch(player)
 
     if output:

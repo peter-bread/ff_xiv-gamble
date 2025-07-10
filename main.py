@@ -23,8 +23,8 @@ def play(output: bool = True, sleep: bool = False):
             print(f"Player {player}: {num}")
         player = switch(player)
 
-        if output:
-            print(f"\nPlayer {player} wins!!!")
+    if output:
+        print(f"\nPlayer {player} wins!!!")
 
     if player == 1:
         return 1, 0

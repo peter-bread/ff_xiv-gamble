@@ -37,7 +37,7 @@ def play(output: bool = True, sleep: bool = False):
 player1_count = 0
 player2_count = 0
 
-runs = 10_000_000
+runs = 10_000
 
 for _ in range(runs):
     a, b = play(output=False)

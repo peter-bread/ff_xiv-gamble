@@ -47,3 +47,7 @@ for _ in range(runs):
 
 print(f"Player 1 wins: {player1_count}")
 print(f"Player 2 wins: {player2_count}")
+
+print()
+
+_ = play()

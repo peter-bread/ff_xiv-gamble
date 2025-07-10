@@ -1,9 +1,11 @@
 import random
 import time
 
+total_players = 2
+
 
 def switch(player: int):
-    return 3 - player
+    return (player % total_players) + 1
 
 
 def play(output: bool = True, sleep: bool = False):
